@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ADS_FACENS_5semestre(GitHUB)/Atividades_faculdade/ADS_FACENS_Atividades/Programacao_para_Dispositivos_Moveis/ExercicioQuiz1/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/ADS_FACENS_5semestre(GitHUB)/Atividades_faculdade/ADS_FACENS_Atividades/Programacao_para_Dispositivos_Moveis/ExercicioQuiz1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/ADS_FACENS_5semestre(GitHUB)/Atividades_faculdade/ADS_FACENS_Atividades/Programacao_para_Dispositivos_Moveis/ExercicioQuiz1/app/src/main/res/layout/activity_quiz.xml" value="0.25" />
+        <entry key="..\:/ADS_FACENS_5semestre(GitHUB)/Atividades_faculdade/ADS_FACENS_Atividades/Programacao_para_Dispositivos_Moveis/ExercicioQuiz1/app/src/main/res/layout/activity_resposta.xml" value="0.17806484295845998" />
       </map>
     </option>
   </component>
