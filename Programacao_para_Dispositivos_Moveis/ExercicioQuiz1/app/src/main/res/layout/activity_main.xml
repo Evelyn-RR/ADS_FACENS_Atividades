@@ -37,6 +37,7 @@
         android:backgroundTint="#4CAF50"
         android:onClick="btnJogarOnClick"
         android:text="Jogar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"

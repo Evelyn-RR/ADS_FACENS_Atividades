@@ -29,10 +29,10 @@ public class RespostaActivity extends AppCompatActivity {
             boolean acertou = intent.getBooleanExtra("acertou", false);
             if (acertou) {
                 imgResposta.setImageResource(R.drawable.acertou);
-                resposta.setText("Acertou! Pontos: " + pontos);
+                resposta.setText("Acertou! - Pontos: " + pontos);
             } else {
                 imgResposta.setImageResource(R.drawable.errou);
-                resposta.setText("Errou! Pontos: " + pontos);
+                resposta.setText("Errou! - Pontos: " + pontos);
             }
 
             Thread thread = new Thread(new Runnable() {
@@ -50,7 +50,7 @@ public class RespostaActivity extends AppCompatActivity {
         }
         else{
             btnJogarNovamente.setVisibility(View.VISIBLE);
-            resposta.setText("Fez " + pontos + " pontos!");
+            resposta.setText("Você fez " + pontos + " pontos!");
 
             if(pontos >= 3)
                 imgResposta.setImageResource(R.drawable.bom);

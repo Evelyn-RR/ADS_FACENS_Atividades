@@ -14,6 +14,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
         android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -33,25 +34,29 @@
             android:id="@+id/rbResposta1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <RadioButton
             android:id="@+id/rbResposta2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <RadioButton
             android:id="@+id/rbResposta3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <RadioButton
             android:id="@+id/rbResposta4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </RadioGroup>
 
     <Button
@@ -64,6 +69,7 @@
         android:backgroundTint="#4CAF50"
         android:onClick="btnResponderOnClick"
         android:text="Responder"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
