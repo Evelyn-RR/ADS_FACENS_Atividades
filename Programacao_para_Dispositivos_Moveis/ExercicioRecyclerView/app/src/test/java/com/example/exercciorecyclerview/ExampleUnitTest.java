@@ -1,4 +1,4 @@
-package com.example.aula4recyclerview;
+package com.example.exercciorecyclerview;
 
 import org.junit.Test;
 
