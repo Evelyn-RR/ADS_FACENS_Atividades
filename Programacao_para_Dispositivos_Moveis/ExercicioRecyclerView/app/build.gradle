@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.aula4"
-        minSdk 21
-        targetSdk 32
+        applicationId "com.example.aula4recyclerview"
+        minSdk 22
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 

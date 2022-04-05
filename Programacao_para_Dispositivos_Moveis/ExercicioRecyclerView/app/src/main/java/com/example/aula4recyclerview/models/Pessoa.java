@@ -1,10 +1,9 @@
-package com.example.aula4.models;
+package com.example.aula4recyclerview.models;
 
 public class Pessoa {
     private int codigo;
     private String nome;
     private String telefone;
-
 
     public Pessoa() {
     }

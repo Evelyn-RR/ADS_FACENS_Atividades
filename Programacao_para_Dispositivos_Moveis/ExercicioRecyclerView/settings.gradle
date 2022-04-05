@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Aula4"
+rootProject.name = "Aula4RecyclerView"
 include ':app'

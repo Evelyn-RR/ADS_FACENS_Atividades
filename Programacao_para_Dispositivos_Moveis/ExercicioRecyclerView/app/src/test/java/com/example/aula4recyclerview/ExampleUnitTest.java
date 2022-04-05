@@ -1,4 +1,4 @@
-package com.example.aula4;
+package com.example.aula4recyclerview;
 
 import org.junit.Test;
 
