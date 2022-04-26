@@ -39,6 +39,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:drawableLeft="@android:drawable/ic_dialog_map"
+        android:onClick="btnAbrirCarneadaMapa"
         android:text="Mapa"
         app:layout_constraintBottom_toTopOf="@+id/btnAbrirNavegadorCarneada"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,6 +53,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:drawableLeft="@android:drawable/stat_sys_phone_call"
+        android:onClick="btnTelefonarCarneadaClick"
         android:text="Telefonar"
         app:layout_constraintBottom_toTopOf="@+id/btnAbrirMapaCarneada"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,6 +67,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:onClick="btnCarneadaClick"
         android:text="Instagram"
         app:layout_constraintBottom_toTopOf="@+id/btnVoltar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,7 +80,23 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:drawableLeft="@android:drawable/ic_menu_revert"
+        android:onClick="btnVoltarClick"
         android:text="Voltar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Baixa gastronomia rangão foda preparado na parrilla  • DESDE 2020 •"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/btnTelefonarCarneada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 </androidx.constraintlayout.widget.ConstraintLayout>

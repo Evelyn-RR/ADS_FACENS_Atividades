@@ -25,101 +25,123 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="40dp"
+        android:onClick="btnCarneadaClick"
         android:text="Carneada"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
-        tools:layout_editor_absoluteY="107dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnNaomi"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="40dp"
+        android:onClick="btnNaomiClick"
         android:text="Naomi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        tools:layout_editor_absoluteY="246dp" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCarneada" />
 
     <Button
         android:id="@+id/btnPadariaReal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="85dp"
         android:layout_marginEnd="40dp"
+        android:onClick="btnPadariaRealClick"
         android:text="Padaria Real"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        tools:layout_editor_absoluteY="395dp" />
+        app:layout_constraintTop_toBottomOf="@+id/btnNaomi" />
 
     <Button
         android:id="@+id/btnSorocabanices"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="30dp"
         android:drawableLeft="@android:drawable/ic_dialog_info"
+        android:onClick="btnSorocabanicesClick"
         android:text="Sorocabanices"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="193dp"
-        android:layout_height="135dp"
-        app:srcCompat="@mipmap/logosorocaba"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="500dp" />
+        android:layout_width="172dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@mipmap/logosorocaba" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="120dp"
         android:layout_height="120dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@mipmap/carneada"
-        tools:layout_editor_absoluteX="16dp" />
+        app:srcCompat="@mipmap/carneada" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="120dp"
         android:layout_height="120dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@mipmap/naomi"
-        tools:layout_editor_absoluteX="16dp" />
+        app:srcCompat="@mipmap/naomi" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="120dp"
         android:layout_height="120dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@mipmap/padariareal"
-        tools:layout_editor_absoluteX="16dp" />
+        app:srcCompat="@mipmap/padariareal" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="135dp"
+        android:layout_width="0dp"
         android:layout_height="51dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="10dp"
         android:text="Quer saber tudo sobre sorocaba?"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="245dp"
-        tools:layout_editor_absoluteY="520dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/btnPadariaReal" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="177dp"
-        android:layout_height="30dp"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:text="Siga Sorocabanices!!!"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="227dp"
-        tools:layout_editor_absoluteY="584dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
